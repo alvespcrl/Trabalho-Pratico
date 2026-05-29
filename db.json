@@ -1,0 +1,142 @@
+{
+  "pecas": [
+    {
+      "id": 1,
+      "nome": "RTX 4060",
+      "descricaoCurta": "Excelente para jogos Full HD",
+      "descricaoCompleta": "A RTX 4060 oferece ótimo desempenho em jogos competitivos e títulos modernos em Full HD, com suporte a Ray Tracing e DLSS.",
+      "categoria": "GPU",
+      "preco": "R$ 2000",
+      "imagem": "https://picsum.photos/200?random=1",
+      "tags": ["NVIDIA", "RTX", "Gamer"],
+      "destaque": true
+    },
+
+    {
+      "id": 2,
+      "nome": "RX 7600",
+      "descricaoCurta": "Ótimo custo benefício",
+      "descricaoCompleta": "A RX 7600 entrega excelente desempenho para jogos em Full HD com ótimo custo-benefício para gamers.",
+      "categoria": "GPU",
+      "preco": "R$ 1800",
+      "imagem": "https://picsum.photos/200?random=2",
+      "tags": ["AMD", "Radeon", "Full HD"],
+      "destaque": true
+    },
+
+    {
+      "id": 3,
+      "nome": "Ryzen 5 5700X",
+      "descricaoCurta": "Processador gamer",
+      "descricaoCompleta": "O Ryzen 5 5700X possui excelente desempenho multitarefa e ótimo desempenho para jogos e produtividade.",
+      "categoria": "CPU",
+      "preco": "R$ 1300",
+      "imagem": "https://picsum.photos/200?random=3",
+      "tags": ["AMD", "Ryzen", "8-Core"],
+      "destaque": false
+    },
+
+    {
+      "id": 4,
+      "nome": "Core i5 12400F",
+      "descricaoCurta": "Intel custo benefício",
+      "descricaoCompleta": "O Intel Core i5 12400F é ideal para setups gamers intermediários e possui excelente desempenho em jogos.",
+      "categoria": "CPU",
+      "preco": "R$ 1100",
+      "imagem": "https://picsum.photos/200?random=4",
+      "tags": ["Intel", "Gaming", "12th Gen"],
+      "destaque": false
+    },
+
+    {
+      "id": 5,
+      "nome": "RTX 4070",
+      "descricaoCurta": "Performance avançada",
+      "descricaoCompleta": "A RTX 4070 oferece excelente desempenho em Quad HD e tecnologias avançadas da NVIDIA.",
+      "categoria": "GPU",
+      "preco": "R$ 4200",
+      "imagem": "https://picsum.photos/200?random=5",
+      "tags": ["NVIDIA", "Ray Tracing", "DLSS"],
+      "destaque": true
+    },
+
+    {
+      "id": 6,
+      "nome": "SSD Kingston 1TB",
+      "descricaoCurta": "Armazenamento rápido",
+      "descricaoCompleta": "SSD NVMe com alta velocidade de leitura e gravação ideal para games e produtividade.",
+      "categoria": "SSD",
+      "preco": "R$ 450",
+      "imagem": "https://picsum.photos/200?random=6",
+      "tags": ["SSD", "NVMe", "Kingston"],
+      "destaque": false
+    },
+
+    {
+      "id": 7,
+      "nome": "Memória RAM Corsair 16GB",
+      "descricaoCurta": "Memória gamer DDR4",
+      "descricaoCompleta": "Kit de memória RAM DDR4 com ótima frequência para jogos e multitarefa.",
+      "categoria": "RAM",
+      "preco": "R$ 320",
+      "imagem": "https://picsum.photos/200?random=7",
+      "tags": ["DDR4", "Corsair", "16GB"],
+      "destaque": false
+    },
+
+    {
+      "id": 8,
+      "nome": "RTX 3050",
+      "descricaoCurta": "Entrada gamer NVIDIA",
+      "descricaoCompleta": "Placa de vídeo ideal para jogos competitivos em Full HD com tecnologias NVIDIA.",
+      "categoria": "GPU",
+      "preco": "R$ 1500",
+      "imagem": "https://picsum.photos/200?random=8",
+      "tags": ["RTX", "Entry Level", "NVIDIA"],
+      "destaque": false
+    },
+
+    {
+      "id": 9,
+      "nome": "Fonte Corsair 650W",
+      "descricaoCurta": "Fonte eficiente",
+      "descricaoCompleta": "Fonte 80 Plus Bronze ideal para computadores gamers intermediários.",
+      "categoria": "Fonte",
+      "preco": "R$ 500",
+      "imagem": "https://picsum.photos/200?random=9",
+      "tags": ["Fonte", "80 Plus", "Corsair"],
+      "destaque": false
+    },
+
+    {
+      "id": 10,
+      "nome": "Gabinete Gamer Redragon",
+      "descricaoCurta": "Gabinete com RGB",
+      "descricaoCompleta": "Gabinete gamer com lateral de vidro e ventoinhas RGB inclusas.",
+      "categoria": "Gabinete",
+      "preco": "R$ 350",
+      "imagem": "https://picsum.photos/200?random=10",
+      "tags": ["RGB", "Gabinete", "Redragon"],
+      "destaque": false
+    }
+  ],
+
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "GPU"
+    },
+    {
+      "id": 2,
+      "nome": "CPU"
+    },
+    {
+      "id": 3,
+      "nome": "RAM"
+    },
+    {
+      "id": 4,
+      "nome": "SSD"
+    }
+  ]
+}
