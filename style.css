@@ -5,17 +5,49 @@ body {
     background: linear-gradient(to right, #1e1e1e, #2c2c2c);
 }
 
-.banner {
-    padding: 100px 20px;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-        url("https://picsum.photos/1200/400");
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-}
-
 footer {
     background-color: #2a2a2a;
     padding: 20px;
     text-align: center;
+}
+
+#slide .card{
+    max-width: 700px;
+    margin:auto;
+    border-radius: 15px;
+    overflow: hidden;
+
+}
+
+#slide img{
+    height:300px;
+    object-fit:cover;
+}
+
+.card{
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+#grafico{
+    max-height: 500px;
+}
+
+@media (max-width: 576px){
+
+    .navbar .form-control{
+        width: 120px;
+    }
+
+}
+
+@media (min-width: 992px){
+
+    #menu{
+        flex-grow: 0;
+    }
+
 }

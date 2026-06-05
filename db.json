@@ -6,137 +6,856 @@
       "descricaoCurta": "Excelente para jogos Full HD",
       "descricaoCompleta": "A RTX 4060 oferece ótimo desempenho em jogos competitivos e títulos modernos em Full HD, com suporte a Ray Tracing e DLSS.",
       "categoria": "GPU",
-      "preco": "R$ 2000",
-      "imagem": "https://picsum.photos/200?random=1",
-      "tags": ["NVIDIA", "RTX", "Gamer"],
-      "destaque": true
+      "preco": "R$ 2.000",
+      "imagemPrincipal": "https://picsum.photos/800/500?random=1",
+      "tags": [
+        "NVIDIA",
+        "RTX",
+        "DLSS"
+      ],
+      "destaque": true,
+      "dataLancamento": "2025-01-10",
+      "graficos": {
+        "desempenho": 85,
+        "consumo": 115,
+        "custoBeneficio": 80
+      },
+      "especificacoes": {
+        "vram": "8GB GDDR6",
+        "clock": "2460 MHz",
+        "barramento": "128-bit",
+        "tdp": "115W",
+        "interface": "PCIe 4.0",
+        "rayTracing": "Sim",
+        "directx": "12 Ultimate"
+      },
+      "galeria": [
+        {
+          "titulo": "Frontal",
+          "imagem": "https://picsum.photos/600/400?random=11"
+        },
+        {
+          "titulo": "Lateral",
+          "imagem": "https://picsum.photos/600/400?random=12"
+        },
+        {
+          "titulo": "Traseira",
+          "imagem": "https://picsum.photos/600/400?random=13"
+        }
+      ]
     },
-
     {
       "id": 2,
       "nome": "RX 7600",
-      "descricaoCurta": "Ótimo custo benefício",
-      "descricaoCompleta": "A RX 7600 entrega excelente desempenho para jogos em Full HD com ótimo custo-benefício para gamers.",
+      "descricaoCurta": "Custo-benefício excelente",
+      "descricaoCompleta": "Placa da AMD ideal para jogos em Full HD com ótimo preço e suporte a tecnologias modernas.",
       "categoria": "GPU",
-      "preco": "R$ 1800",
-      "imagem": "https://picsum.photos/200?random=2",
-      "tags": ["AMD", "Radeon", "Full HD"],
-      "destaque": true
+      "preco": "R$ 1.800",
+      "imagemPrincipal": "https://picsum.photos/800/500?random=2",
+      "tags": [
+        "AMD",
+        "Radeon"
+      ],
+      "destaque": true,
+      "dataLancamento": "2025-02-12",
+      "graficos": {
+        "desempenho": 78,
+        "consumo": 130,
+        "custoBeneficio": 88
+      },
+      "especificacoes": {
+        "vram": "8GB GDDR6",
+        "clock": "2655 MHz",
+        "barramento": "128-bit",
+        "tdp": "165W",
+        "interface": "PCIe 4.0",
+        "rayTracing": "Sim",
+        "directx": "12 Ultimate"
+      },
+      "galeria": [
+        {
+          "titulo": "Design",
+          "imagem": "https://picsum.photos/600/400?random=21"
+        },
+        {
+          "titulo": "Lateral",
+          "imagem": "https://picsum.photos/600/400?random=22"
+        },
+        {
+          "titulo": "Traseira",
+          "imagem": "https://picsum.photos/600/400?random=23"
+        }
+      ]
     },
-
     {
       "id": 3,
-      "nome": "Ryzen 5 5700X",
-      "descricaoCurta": "Processador gamer",
-      "descricaoCompleta": "O Ryzen 5 5700X possui excelente desempenho multitarefa e ótimo desempenho para jogos e produtividade.",
-      "categoria": "CPU",
-      "preco": "R$ 1300",
-      "imagem": "https://picsum.photos/200?random=3",
-      "tags": ["AMD", "Ryzen", "8-Core"],
-      "destaque": false
+      "nome": "RTX 4070",
+      "descricaoCurta": "Alta performance em 2K e 4K",
+      "descricaoCompleta": "A RTX 4070 entrega excelente desempenho em resoluções 2K e 4K leve, com DLSS 3 e Ray Tracing avançado.",
+      "categoria": "GPU",
+      "preco": "R$ 4.200",
+      "imagemPrincipal": "https://picsum.photos/800/500?random=5",
+      "tags": [
+        "NVIDIA",
+        "RTX",
+        "DLSS"
+      ],
+      "destaque": true,
+      "dataLancamento": "2025-03-01",
+      "graficos": {
+        "desempenho": 93,
+        "consumo": 200,
+        "custoBeneficio": 72
+      },
+      "especificacoes": {
+        "vram": "12GB GDDR6X",
+        "clock": "2475 MHz",
+        "barramento": "192-bit",
+        "tdp": "200W",
+        "interface": "PCIe 4.0",
+        "rayTracing": "Sim",
+        "directx": "12 Ultimate"
+      },
+      "galeria": [
+        {
+          "titulo": "Frontal",
+          "imagem": "https://picsum.photos/600/400?random=51"
+        },
+        {
+          "titulo": "Lateral",
+          "imagem": "https://picsum.photos/600/400?random=52"
+        },
+        {
+          "titulo": "Traseira",
+          "imagem": "https://picsum.photos/600/400?random=53"
+        }
+      ]
     },
-
     {
       "id": 4,
-      "nome": "Core i5 12400F",
-      "descricaoCurta": "Intel custo benefício",
-      "descricaoCompleta": "O Intel Core i5 12400F é ideal para setups gamers intermediários e possui excelente desempenho em jogos.",
-      "categoria": "CPU",
-      "preco": "R$ 1100",
-      "imagem": "https://picsum.photos/200?random=4",
-      "tags": ["Intel", "Gaming", "12th Gen"],
-      "destaque": false
+      "nome": "RTX 3050",
+      "descricaoCurta": "Entrada no mundo gamer NVIDIA",
+      "descricaoCompleta": "A RTX 3050 é uma boa opção para quem busca entrar no ecossistema NVIDIA com Ray Tracing e DLSS a um preço acessível.",
+      "categoria": "GPU",
+      "preco": "R$ 1.500",
+      "imagemPrincipal": "https://picsum.photos/800/500?random=8",
+      "tags": [
+        "NVIDIA",
+        "RTX"
+      ],
+      "destaque": false,
+      "dataLancamento": "2024-06-20",
+      "graficos": {
+        "desempenho": 65,
+        "consumo": 130,
+        "custoBeneficio": 70
+      },
+      "especificacoes": {
+        "vram": "8GB GDDR6",
+        "clock": "1807 MHz",
+        "barramento": "128-bit",
+        "tdp": "130W",
+        "interface": "PCIe 4.0",
+        "rayTracing": "Sim",
+        "directx": "12 Ultimate"
+      },
+      "galeria": [
+        {
+          "titulo": "Frontal",
+          "imagem": "https://picsum.photos/600/400?random=81"
+        },
+        {
+          "titulo": "Lateral",
+          "imagem": "https://picsum.photos/600/400?random=82"
+        },
+        {
+          "titulo": "Traseira",
+          "imagem": "https://picsum.photos/600/400?random=83"
+        }
+      ]
     },
-
     {
       "id": 5,
-      "nome": "RTX 4070",
-      "descricaoCurta": "Performance avançada",
-      "descricaoCompleta": "A RTX 4070 oferece excelente desempenho em Quad HD e tecnologias avançadas da NVIDIA.",
+      "nome": "RX 6600",
+      "descricaoCurta": "AMD para Full HD com eficiência",
+      "descricaoCompleta": "A RX 6600 é uma GPU eficiente da AMD para jogos em Full HD, com ótimo consumo energético e desempenho sólido.",
       "categoria": "GPU",
-      "preco": "R$ 4200",
-      "imagem": "https://picsum.photos/200?random=5",
-      "tags": ["NVIDIA", "Ray Tracing", "DLSS"],
-      "destaque": true
+      "preco": "R$ 1.600",
+      "imagemPrincipal": "https://picsum.photos/800/500?random=15",
+      "tags": [
+        "AMD",
+        "Radeon"
+      ],
+      "destaque": false,
+      "dataLancamento": "2024-11-10",
+      "graficos": {
+        "desempenho": 72,
+        "consumo": 132,
+        "custoBeneficio": 76
+      },
+      "especificacoes": {
+        "vram": "8GB GDDR6",
+        "clock": "2491 MHz",
+        "barramento": "128-bit",
+        "tdp": "132W",
+        "interface": "PCIe 4.0",
+        "rayTracing": "Sim",
+        "directx": "12 Ultimate"
+      },
+      "galeria": [
+        {
+          "titulo": "Frontal",
+          "imagem": "https://picsum.photos/600/400?random=151"
+        },
+        {
+          "titulo": "Lateral",
+          "imagem": "https://picsum.photos/600/400?random=152"
+        },
+        {
+          "titulo": "Traseira",
+          "imagem": "https://picsum.photos/600/400?random=153"
+        }
+      ]
     },
-
     {
       "id": 6,
-      "nome": "SSD Kingston 1TB",
-      "descricaoCurta": "Armazenamento rápido",
-      "descricaoCompleta": "SSD NVMe com alta velocidade de leitura e gravação ideal para games e produtividade.",
-      "categoria": "SSD",
-      "preco": "R$ 450",
-      "imagem": "https://picsum.photos/200?random=6",
-      "tags": ["SSD", "NVMe", "Kingston"],
-      "destaque": false
+      "nome": "Ryzen 5 5700X",
+      "descricaoCurta": "CPU gamer equilibrada",
+      "descricaoCompleta": "O Ryzen 5 5700X é um processador AMD de alto desempenho, excelente para jogos e multitarefa no socket AM4.",
+      "categoria": "CPU",
+      "preco": "R$ 1.300",
+      "imagemPrincipal": "https://picsum.photos/800/500?random=3",
+      "tags": [
+        "AMD",
+        "Ryzen"
+      ],
+      "destaque": false,
+      "dataLancamento": "2024-10-05",
+      "graficos": {
+        "desempenho": 82,
+        "consumo": 65,
+        "custoBeneficio": 85
+      },
+      "especificacoes": {
+        "cores": "8",
+        "threads": "16",
+        "frequencia": "4.6 GHz",
+        "socket": "AM4",
+        "tdp": "65W",
+        "cache": "32MB L3",
+        "memoria": "DDR4"
+      },
+      "galeria": [
+        {
+          "titulo": "CPU",
+          "imagem": "https://picsum.photos/600/400?random=31"
+        },
+        {
+          "titulo": "Lateral",
+          "imagem": "https://picsum.photos/600/400?random=32"
+        },
+        {
+          "titulo": "Embalagem",
+          "imagem": "https://picsum.photos/600/400?random=33"
+        }
+      ]
     },
-
     {
       "id": 7,
-      "nome": "Memória RAM Corsair 16GB",
-      "descricaoCurta": "Memória gamer DDR4",
-      "descricaoCompleta": "Kit de memória RAM DDR4 com ótima frequência para jogos e multitarefa.",
-      "categoria": "RAM",
-      "preco": "R$ 320",
-      "imagem": "https://picsum.photos/200?random=7",
-      "tags": ["DDR4", "Corsair", "16GB"],
-      "destaque": false
+      "nome": "Core i5-12400F",
+      "descricaoCurta": "Intel custo-benefício para jogos",
+      "descricaoCompleta": "O Core i5-12400F é um excelente processador Intel da 12ª geração para jogos e uso geral, sem GPU integrada.",
+      "categoria": "CPU",
+      "preco": "R$ 1.100",
+      "imagemPrincipal": "https://picsum.photos/800/500?random=4",
+      "tags": [
+        "Intel",
+        "Core i5"
+      ],
+      "destaque": false,
+      "dataLancamento": "2024-09-20",
+      "graficos": {
+        "desempenho": 78,
+        "consumo": 65,
+        "custoBeneficio": 88
+      },
+      "especificacoes": {
+        "cores": "6",
+        "threads": "12",
+        "frequencia": "4.4 GHz",
+        "socket": "LGA1700",
+        "tdp": "65W",
+        "cache": "18MB L3",
+        "memoria": "DDR4/DDR5"
+      },
+      "galeria": [
+        {
+          "titulo": "CPU",
+          "imagem": "https://picsum.photos/600/400?random=41"
+        },
+        {
+          "titulo": "Lateral",
+          "imagem": "https://picsum.photos/600/400?random=42"
+        },
+        {
+          "titulo": "Embalagem",
+          "imagem": "https://picsum.photos/600/400?random=43"
+        }
+      ]
     },
-
     {
       "id": 8,
-      "nome": "RTX 3050",
-      "descricaoCurta": "Entrada gamer NVIDIA",
-      "descricaoCompleta": "Placa de vídeo ideal para jogos competitivos em Full HD com tecnologias NVIDIA.",
-      "categoria": "GPU",
-      "preco": "R$ 1500",
-      "imagem": "https://picsum.photos/200?random=8",
-      "tags": ["RTX", "Entry Level", "NVIDIA"],
-      "destaque": false
+      "nome": "Ryzen 7 7700X",
+      "descricaoCurta": "Alto desempenho AMD para AM5",
+      "descricaoCompleta": "O Ryzen 7 7700X é um processador de alto desempenho da AMD para a plataforma AM5, ideal para jogos e produção de conteúdo.",
+      "categoria": "CPU",
+      "preco": "R$ 2.100",
+      "imagemPrincipal": "https://picsum.photos/800/500?random=16",
+      "tags": [
+        "AMD",
+        "Ryzen"
+      ],
+      "destaque": true,
+      "dataLancamento": "2025-01-15",
+      "graficos": {
+        "desempenho": 92,
+        "consumo": 105,
+        "custoBeneficio": 74
+      },
+      "especificacoes": {
+        "cores": "8",
+        "threads": "16",
+        "frequencia": "5.4 GHz",
+        "socket": "AM5",
+        "tdp": "105W",
+        "cache": "32MB L3",
+        "memoria": "DDR5"
+      },
+      "galeria": [
+        {
+          "titulo": "CPU",
+          "imagem": "https://picsum.photos/600/400?random=161"
+        },
+        {
+          "titulo": "Lateral",
+          "imagem": "https://picsum.photos/600/400?random=162"
+        },
+        {
+          "titulo": "Embalagem",
+          "imagem": "https://picsum.photos/600/400?random=163"
+        }
+      ]
     },
-
     {
       "id": 9,
-      "nome": "Fonte Corsair 650W",
-      "descricaoCurta": "Fonte eficiente",
-      "descricaoCompleta": "Fonte 80 Plus Bronze ideal para computadores gamers intermediários.",
-      "categoria": "Fonte",
-      "preco": "R$ 500",
-      "imagem": "https://picsum.photos/200?random=9",
-      "tags": ["Fonte", "80 Plus", "Corsair"],
-      "destaque": false
+      "nome": "Core i7-13700F",
+      "descricaoCurta": "Intel potente para jogos e criação",
+      "descricaoCompleta": "O Core i7-13700F é um processador Intel da 13ª geração com 16 núcleos, ideal para jogos e criação de conteúdo exigente.",
+      "categoria": "CPU",
+      "preco": "R$ 2.400",
+      "imagemPrincipal": "https://picsum.photos/800/500?random=17",
+      "tags": [
+        "Intel",
+        "Core i7"
+      ],
+      "destaque": false,
+      "dataLancamento": "2025-02-01",
+      "graficos": {
+        "desempenho": 90,
+        "consumo": 125,
+        "custoBeneficio": 70
+      },
+      "especificacoes": {
+        "cores": "16",
+        "threads": "24",
+        "frequencia": "5.2 GHz",
+        "socket": "LGA1700",
+        "tdp": "125W",
+        "cache": "30MB L3",
+        "memoria": "DDR4/DDR5"
+      },
+      "galeria": [
+        {
+          "titulo": "CPU",
+          "imagem": "https://picsum.photos/600/400?random=171"
+        },
+        {
+          "titulo": "Lateral",
+          "imagem": "https://picsum.photos/600/400?random=172"
+        },
+        {
+          "titulo": "Embalagem",
+          "imagem": "https://picsum.photos/600/400?random=173"
+        }
+      ]
     },
-
     {
       "id": 10,
-      "nome": "Gabinete Gamer Redragon",
-      "descricaoCurta": "Gabinete com RGB",
-      "descricaoCompleta": "Gabinete gamer com lateral de vidro e ventoinhas RGB inclusas.",
-      "categoria": "Gabinete",
-      "preco": "R$ 350",
-      "imagem": "https://picsum.photos/200?random=10",
-      "tags": ["RGB", "Gabinete", "Redragon"],
-      "destaque": false
-    }
-  ],
-
-  "categorias": [
-    {
-      "id": 1,
-      "nome": "GPU"
+      "nome": "Ryzen 5 7600",
+      "descricaoCurta": "Entrada AM5 com ótima eficiência",
+      "descricaoCompleta": "O Ryzen 5 7600 é a porta de entrada para a plataforma AM5 da AMD, trazendo boa eficiência energética e desempenho sólido em jogos.",
+      "categoria": "CPU",
+      "preco": "R$ 1.500",
+      "imagemPrincipal": "https://picsum.photos/800/500?random=18",
+      "tags": [
+        "AMD",
+        "Ryzen"
+      ],
+      "destaque": false,
+      "dataLancamento": "2024-12-10",
+      "graficos": {
+        "desempenho": 80,
+        "consumo": 65,
+        "custoBeneficio": 83
+      },
+      "especificacoes": {
+        "cores": "6",
+        "threads": "12",
+        "frequencia": "5.1 GHz",
+        "socket": "AM5",
+        "tdp": "65W",
+        "cache": "32MB L3",
+        "memoria": "DDR5"
+      },
+      "galeria": [
+        {
+          "titulo": "CPU",
+          "imagem": "https://picsum.photos/600/400?random=181"
+        },
+        {
+          "titulo": "Lateral",
+          "imagem": "https://picsum.photos/600/400?random=182"
+        },
+        {
+          "titulo": "Embalagem",
+          "imagem": "https://picsum.photos/600/400?random=183"
+        }
+      ]
     },
     {
-      "id": 2,
-      "nome": "CPU"
+      "id": 11,
+      "nome": "RAM Corsair 16GB DDR4",
+      "descricaoCurta": "Memória gamer DDR4",
+      "descricaoCompleta": "Kit de memória DDR4 da Corsair com 16GB e 3200MHz, ideal para multitarefa e jogos.",
+      "categoria": "RAM",
+      "preco": "R$ 320",
+      "imagemPrincipal": "https://picsum.photos/800/500?random=7",
+      "tags": [
+        "DDR4",
+        "Corsair"
+      ],
+      "destaque": false,
+      "dataLancamento": "2024-07-10",
+      "graficos": {
+        "desempenho": 75,
+        "consumo": 10,
+        "custoBeneficio": 82
+      },
+      "especificacoes": {
+        "tipo": "DDR4",
+        "frequencia": "3200 MHz",
+        "capacidade": "16GB",
+        "latencia": "CL16",
+        "tensao": "1.35V",
+        "modulos": "2x8GB"
+      },
+      "galeria": [
+        {
+          "titulo": "Kit",
+          "imagem": "https://picsum.photos/600/400?random=71"
+        },
+        {
+          "titulo": "Módulo",
+          "imagem": "https://picsum.photos/600/400?random=72"
+        },
+        {
+          "titulo": "Detalhe",
+          "imagem": "https://picsum.photos/600/400?random=73"
+        }
+      ]
     },
     {
-      "id": 3,
-      "nome": "RAM"
+      "id": 12,
+      "nome": "RAM Kingston 32GB DDR4",
+      "descricaoCurta": "Mais capacidade para multitarefa",
+      "descricaoCompleta": "Kit de memória DDR4 Kingston com 32GB e 3600MHz, excelente para quem precisa de mais capacidade e velocidade.",
+      "categoria": "RAM",
+      "preco": "R$ 580",
+      "imagemPrincipal": "https://picsum.photos/800/500?random=19",
+      "tags": [
+        "DDR4",
+        "Kingston"
+      ],
+      "destaque": false,
+      "dataLancamento": "2024-08-20",
+      "graficos": {
+        "desempenho": 82,
+        "consumo": 12,
+        "custoBeneficio": 78
+      },
+      "especificacoes": {
+        "tipo": "DDR4",
+        "frequencia": "3600 MHz",
+        "capacidade": "32GB",
+        "latencia": "CL18",
+        "tensao": "1.35V",
+        "modulos": "2x16GB"
+      },
+      "galeria": [
+        {
+          "titulo": "Kit",
+          "imagem": "https://picsum.photos/600/400?random=191"
+        },
+        {
+          "titulo": "Módulo",
+          "imagem": "https://picsum.photos/600/400?random=192"
+        },
+        {
+          "titulo": "Detalhe",
+          "imagem": "https://picsum.photos/600/400?random=193"
+        }
+      ]
     },
     {
-      "id": 4,
-      "nome": "SSD"
+      "id": 13,
+      "nome": "RAM G.Skill 16GB DDR5",
+      "descricaoCurta": "DDR5 de alta velocidade",
+      "descricaoCompleta": "Kit de memória DDR5 G.Skill com 16GB e 6000MHz para plataformas modernas AM5 e LGA1700.",
+      "categoria": "RAM",
+      "preco": "R$ 480",
+      "imagemPrincipal": "https://picsum.photos/800/500?random=20",
+      "tags": [
+        "DDR5",
+        "G.Skill"
+      ],
+      "destaque": true,
+      "dataLancamento": "2025-01-05",
+      "graficos": {
+        "desempenho": 90,
+        "consumo": 14,
+        "custoBeneficio": 74
+      },
+      "especificacoes": {
+        "tipo": "DDR5",
+        "frequencia": "6000 MHz",
+        "capacidade": "16GB",
+        "latencia": "CL36",
+        "tensao": "1.35V",
+        "modulos": "2x8GB"
+      },
+      "galeria": [
+        {
+          "titulo": "Kit",
+          "imagem": "https://picsum.photos/600/400?random=201"
+        },
+        {
+          "titulo": "Módulo",
+          "imagem": "https://picsum.photos/600/400?random=202"
+        },
+        {
+          "titulo": "Detalhe",
+          "imagem": "https://picsum.photos/600/400?random=203"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "nome": "RAM Crucial 8GB DDR4",
+      "descricaoCurta": "Opção básica e econômica",
+      "descricaoCompleta": "Módulo de memória DDR4 Crucial com 8GB e 2666MHz, ideal para quem busca uma opção econômica para uso do dia a dia.",
+      "categoria": "RAM",
+      "preco": "R$ 150",
+      "imagemPrincipal": "https://picsum.photos/800/500?random=24",
+      "tags": [
+        "DDR4",
+        "Crucial"
+      ],
+      "destaque": false,
+      "dataLancamento": "2024-05-15",
+      "graficos": {
+        "desempenho": 60,
+        "consumo": 8,
+        "custoBeneficio": 90
+      },
+      "especificacoes": {
+        "tipo": "DDR4",
+        "frequencia": "2666 MHz",
+        "capacidade": "8GB",
+        "latencia": "CL19",
+        "tensao": "1.2V",
+        "modulos": "1x8GB"
+      },
+      "galeria": [
+        {
+          "titulo": "Módulo",
+          "imagem": "https://picsum.photos/600/400?random=241"
+        },
+        {
+          "titulo": "Detalhe",
+          "imagem": "https://picsum.photos/600/400?random=242"
+        },
+        {
+          "titulo": "Embalagem",
+          "imagem": "https://picsum.photos/600/400?random=243"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "nome": "RAM Corsair 32GB DDR5",
+      "descricaoCurta": "Alta capacidade DDR5 gamer",
+      "descricaoCompleta": "Kit premium DDR5 da Corsair com 32GB e 5600MHz, ideal para workstations e plataformas de última geração.",
+      "categoria": "RAM",
+      "preco": "R$ 780",
+      "imagemPrincipal": "https://picsum.photos/800/500?random=25",
+      "tags": [
+        "DDR5",
+        "Corsair"
+      ],
+      "destaque": false,
+      "dataLancamento": "2025-02-20",
+      "graficos": {
+        "desempenho": 95,
+        "consumo": 15,
+        "custoBeneficio": 68
+      },
+      "especificacoes": {
+        "tipo": "DDR5",
+        "frequencia": "5600 MHz",
+        "capacidade": "32GB",
+        "latencia": "CL40",
+        "tensao": "1.25V",
+        "modulos": "2x16GB"
+      },
+      "galeria": [
+        {
+          "titulo": "Kit",
+          "imagem": "https://picsum.photos/600/400?random=251"
+        },
+        {
+          "titulo": "Módulo",
+          "imagem": "https://picsum.photos/600/400?random=252"
+        },
+        {
+          "titulo": "Detalhe",
+          "imagem": "https://picsum.photos/600/400?random=253"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "nome": "SSD Kingston 1TB NVMe",
+      "descricaoCurta": "Armazenamento rápido e confiável",
+      "descricaoCompleta": "SSD NVMe Kingston de 1TB com alta velocidade de leitura e gravação, ideal para sistema operacional e jogos.",
+      "categoria": "SSD",
+      "preco": "R$ 450",
+      "imagemPrincipal": "https://picsum.photos/800/500?random=6",
+      "tags": [
+        "SSD",
+        "NVMe",
+        "Kingston"
+      ],
+      "destaque": false,
+      "dataLancamento": "2024-08-15",
+      "graficos": {
+        "desempenho": 82,
+        "consumo": 6,
+        "custoBeneficio": 88
+      },
+      "especificacoes": {
+        "tipo": "NVMe PCIe 3.0",
+        "capacidade": "1TB",
+        "leitura": "3500 MB/s",
+        "gravacao": "3000 MB/s",
+        "fator": "M.2 2280",
+        "tbw": "600 TBW"
+      },
+      "galeria": [
+        {
+          "titulo": "SSD",
+          "imagem": "https://picsum.photos/600/400?random=61"
+        },
+        {
+          "titulo": "Detalhe",
+          "imagem": "https://picsum.photos/600/400?random=62"
+        },
+        {
+          "titulo": "Embalagem",
+          "imagem": "https://picsum.photos/600/400?random=63"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "nome": "SSD Samsung 980 Pro 1TB",
+      "descricaoCurta": "NVMe PCIe 4.0 de alta velocidade",
+      "descricaoCompleta": "O Samsung 980 Pro é um SSD NVMe PCIe 4.0 de altíssima performance, ideal para quem exige o máximo em velocidade.",
+      "categoria": "SSD",
+      "preco": "R$ 620",
+      "imagemPrincipal": "https://picsum.photos/800/500?random=26",
+      "tags": [
+        "SSD",
+        "NVMe",
+        "Samsung"
+      ],
+      "destaque": true,
+      "dataLancamento": "2025-01-20",
+      "graficos": {
+        "desempenho": 95,
+        "consumo": 7,
+        "custoBeneficio": 78
+      },
+      "especificacoes": {
+        "tipo": "NVMe PCIe 4.0",
+        "capacidade": "1TB",
+        "leitura": "7000 MB/s",
+        "gravacao": "5100 MB/s",
+        "fator": "M.2 2280",
+        "tbw": "600 TBW"
+      },
+      "galeria": [
+        {
+          "titulo": "SSD",
+          "imagem": "https://picsum.photos/600/400?random=261"
+        },
+        {
+          "titulo": "Detalhe",
+          "imagem": "https://picsum.photos/600/400?random=262"
+        },
+        {
+          "titulo": "Embalagem",
+          "imagem": "https://picsum.photos/600/400?random=263"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "nome": "SSD WD Blue 500GB SATA",
+      "descricaoCurta": "SATA econômico e confiável",
+      "descricaoCompleta": "O WD Blue é um SSD SATA de 500GB, confiável e econômico, ótimo para upgrade de HD para SSD.",
+      "categoria": "SSD",
+      "preco": "R$ 280",
+      "imagemPrincipal": "https://picsum.photos/800/500?random=27",
+      "tags": [
+        "SSD",
+        "SATA",
+        "WD"
+      ],
+      "destaque": false,
+      "dataLancamento": "2024-06-10",
+      "graficos": {
+        "desempenho": 60,
+        "consumo": 4,
+        "custoBeneficio": 92
+      },
+      "especificacoes": {
+        "tipo": "SATA III",
+        "capacidade": "500GB",
+        "leitura": "560 MB/s",
+        "gravacao": "530 MB/s",
+        "fator": "2.5\"",
+        "tbw": "200 TBW"
+      },
+      "galeria": [
+        {
+          "titulo": "SSD",
+          "imagem": "https://picsum.photos/600/400?random=271"
+        },
+        {
+          "titulo": "Detalhe",
+          "imagem": "https://picsum.photos/600/400?random=272"
+        },
+        {
+          "titulo": "Embalagem",
+          "imagem": "https://picsum.photos/600/400?random=273"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "nome": "SSD Crucial P3 2TB NVMe",
+      "descricaoCurta": "Máxima capacidade NVMe",
+      "descricaoCompleta": "O Crucial P3 oferece 2TB de armazenamento NVMe a um preço acessível, perfeito para quem precisa de muito espaço.",
+      "categoria": "SSD",
+      "preco": "R$ 750",
+      "imagemPrincipal": "https://picsum.photos/800/500?random=28",
+      "tags": [
+        "SSD",
+        "NVMe",
+        "Crucial"
+      ],
+      "destaque": false,
+      "dataLancamento": "2024-09-05",
+      "graficos": {
+        "desempenho": 78,
+        "consumo": 8,
+        "custoBeneficio": 80
+      },
+      "especificacoes": {
+        "tipo": "NVMe PCIe 3.0",
+        "capacidade": "2TB",
+        "leitura": "3500 MB/s",
+        "gravacao": "3000 MB/s",
+        "fator": "M.2 2280",
+        "tbw": "800 TBW"
+      },
+      "galeria": [
+        {
+          "titulo": "SSD",
+          "imagem": "https://picsum.photos/600/400?random=281"
+        },
+        {
+          "titulo": "Detalhe",
+          "imagem": "https://picsum.photos/600/400?random=282"
+        },
+        {
+          "titulo": "Embalagem",
+          "imagem": "https://picsum.photos/600/400?random=283"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "nome": "SSD Seagate Barracuda 1TB SATA",
+      "descricaoCurta": "SATA de 1TB com bom custo-benefício",
+      "descricaoCompleta": "O Seagate Barracuda SSD oferece 1TB de armazenamento SATA com bom desempenho e excelente custo-benefício.",
+      "categoria": "SSD",
+      "preco": "R$ 380",
+      "imagemPrincipal": "https://picsum.photos/800/500?random=29",
+      "tags": [
+        "SSD",
+        "SATA",
+        "Seagate"
+      ],
+      "destaque": false,
+      "dataLancamento": "2024-10-15",
+      "graficos": {
+        "desempenho": 65,
+        "consumo": 5,
+        "custoBeneficio": 86
+      },
+      "especificacoes": {
+        "tipo": "SATA III",
+        "capacidade": "1TB",
+        "leitura": "560 MB/s",
+        "gravacao": "540 MB/s",
+        "fator": "2.5\"",
+        "tbw": "360 TBW"
+      },
+      "galeria": [
+        {
+          "titulo": "SSD",
+          "imagem": "https://picsum.photos/600/400?random=291"
+        },
+        {
+          "titulo": "Detalhe",
+          "imagem": "https://picsum.photos/600/400?random=292"
+        },
+        {
+          "titulo": "Embalagem",
+          "imagem": "https://picsum.photos/600/400?random=293"
+        }
+      ]
     }
   ]
 }

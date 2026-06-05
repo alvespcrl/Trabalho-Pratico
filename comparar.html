@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparação</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="index.html">
+                <h1>HardCompare</h1>
+            </a>
+
+            <div class="d-flex ms-auto me-2">
+                <input class="form-control form-control-sm me-2" type="search" placeholder="Pesquisar">
+
+                <button class="btn btn-light btn-sm">
+                    Buscar
+                </button>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+
+                <ul class="navbar-nav ms-lg-3">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Peças</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="comparar.html">Comparar</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+
+    <h2 class="text-center text-white mt-4 mb-4">
+        Comparação de Desempenho
+    </h2>
+
+    <div class="container py-4">
+        <div class="row mt-4 g-3 justify-content-center">
+            <div class="col-md-3 col-12">
+                <select id="categoria" class="form-select">
+                    <option value="">Selecione uma categoria</option>
+                    <option value="CPU">CPU</option>
+                    <option value="GPU">GPU</option>
+                    <option value="RAM">RAM</option>
+                    <option value="SSD">SSD</option>
+
+                </select>
+            </div>
+            <div class="col-md-3 col-12">
+                <select id="peca1" class="form-select"></select>
+            </div>
+
+            <div class="col-md-3 col-12">
+                <select id="peca2" class="form-select"></select>
+            </div>
+
+            <div class="col-md-2 col-12">
+                <button id="compararbtn" class="btn btn-dark w-100">
+                    Comparar
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5 mb-5">
+        <canvas id="grafico" class="row g-3"></canvas>
+    </div>
+
+    <div class="container mt-4">
+        <div id="resultadoComparacao"></div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="comparar.js"></script>
+</body>
+
+</html>

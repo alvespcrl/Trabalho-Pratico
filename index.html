@@ -5,34 +5,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HardCompare</title>
-
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 
 <body>
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
 
-    <header class="bg-dark text-white p-3">
-        <div class="container-fluid">
-            <div class="row align-items-center">
+        <a class="navbar-brand" href="index.html">
+            <h1>HardCompare</h1>
+        </a>
 
-                <div class="col-12 c col-md-6">
-                    <h1>HardCompare</h1>
-                </div>
+        <div class="d-flex ms-auto me-2">
+            <input
+                class="form-control form-control-sm me-2"
+                type="search"
+                placeholder="Pesquisar">
 
-                <div class="col-12 col-sm-12 col-md-6 text-md-end">
-                    <a href="#" class="text-white me-3">Home</a>
-                    <a href="#" class="text-white me-3">Peças</a>
-                    <a href="#" class="text-white me-3">Comparar</a>
-                    <a href="#" class="text-white me-3">Contato</a>
-
-                    <input type="text" class="col-sm-3" placeholder="Pesquisar">
-                    <button>Buscar</button>
-                </div>
-
-            </div>
+            <button class="btn btn-light btn-sm">
+                Buscar
+            </button>
         </div>
-    </header>
+
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menu">
+
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+
+            <ul class="navbar-nav ms-lg-3">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Peças</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="comparar.html">Comparar</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contato</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+</nav>
+
+    <div id="carroselContainer" class="container mt-4 d-flex align-items-center justify-content-center">
+        <div class="d-flex align-items-center justify-content-center"></div>
+        <button id="prev-button" class="btn btn-light">
+            <img src="imagens/arrowE.jpg" width="40">
+        </button>
+
+        <div id="slide" class="mx-4"></div>
+
+        <button id="next-button" class="btn btn-light">
+            <img src="imagens/arrowD.jpg" width="40">
+        </button>
+        
+    </div>
 
     <main>
 
@@ -66,31 +110,36 @@
 
                 <div class="col-md-8">
                     <h2 class="text-center">Lista de Peças</h2>
-
-                    <div class="row" id="lista-pecas">
-
+                    <div class="row g-4" id="lista-pecas">
+                    </div>
+                    <div class="text-center mt-4">
+                       <button id="mstMais" class="btn btn-light px-4">Mostrar Mais</button>
                     </div>
                 </div>
 
             </div>
-        </div>
-
-        <section class="text-center mt-4">
-            <h2>Destaques</h2>
-            <p>Melhor custo benefício RX 7600</p>
-        </section>
 
     </main>
 
+    <section class="container my-5">
+    <h2 class="text-center mb-4">Sobre o Desenvolvedor</h2>
+
+    <div class="card shadow p-4">
+        <h4>Gustavo Alves</h4>
+        <p>Estudante de Engenharia de Software. <br>O projeto HardCompare foi desenvolvido para auxiliar usuários na comparação de peças de computador, facilitando a escolha do hardware ideal.</p>
+    </div>
+</section>
+
     <footer class="bg-dark text-white text-center p-3 mt-4">
-        <a href="#" class="text-white me-3">Contato</a>
-        <a href="#" class="text-white me-3">Sobre</a>
-        <a href="#" class="text-white me-3">Redes Sociais</a>
-        <a href="#" class="text-white">GitHub</a>
+        <a href="#" class="text-white me-3 text-decoration-none">Contato</a>
+        <a href="#" class="text-white me-3 text-decoration-none">Sobre</a>
+        <a href="#" class="text-white me-3 text-decoration-none">Redes Sociais</a>
+        <a href="https://github.com/alvespcrl" class="text-white text-decoration-none">GitHub</a>
     </footer>
 
 
-<script src="app.js"></script>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
